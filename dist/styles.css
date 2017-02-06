@@ -14,8 +14,11 @@ body {
   width: 75%;
   margin: 140px auto 0; }
 
-h1 {
-  color: red; }
+.no_pad_left {
+  padding-left: 0 !important; }
+
+.no_pad_right {
+  padding-right: 0 !important; }
 
 .who_section h1 {
   color: #222222;

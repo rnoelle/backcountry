@@ -4,6 +4,7 @@
   padding: 0;
 }
 
+
 body {
   color: #222222;
   font-family: Arial, sans-serif;
@@ -14,12 +15,20 @@ body {
 .container {
   width:75%;
   margin: 140px auto 0;
+
+}
+
+.no_pad_left {
+  padding-left: 0 !important;
+  // background-color: red;
+}
+
+.no_pad_right {
+  padding-right: 0 !important;
+  // background-color: blue;
 }
 
 
-h1 {
-  color: red;
-}
 
 .who_section {
   // margin: 140px auto 0;
