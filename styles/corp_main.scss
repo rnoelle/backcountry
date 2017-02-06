@@ -117,13 +117,12 @@ hr {
 .photo_montage {
   margin-top: 120px;
   clear:both;
-  // position: relative;
+  position: relative;
   width: 100%;
   height: 868px;
-  background-color: red;
+  background-color: #EFEFEF;
   margin:0;
   padding:0;
-  // display: inline-block;;
 
 }
 
@@ -132,7 +131,8 @@ hr {
   padding:0;
   display: inline-block;
   width: 37.5%;
-  // background-color: orange;
+  position:absolute;
+  top:0;
 }
 
 .column2 {
@@ -140,7 +140,10 @@ hr {
     padding:0;
     display: inline-block;
     width:37.5%;
-    background-color:white;
+    background-color:#EFEFEF;
+    position:absolute;
+    top:0;
+    left:37.5%;
 }
 
 .column3 {
@@ -148,8 +151,11 @@ hr {
   padding:0;
   display: inline-block;
   width:25%;
-  // background-color: purple;
+  position:absolute;
+  top:0;
+  right:0;
 }
+
 ////////////left column///////////////////
 .left_column_top_row {
   width:100%;
@@ -158,14 +164,12 @@ hr {
 }
 
 .left_column_left_side {
-  background-color: pink;
   float:left;
   width:25%;
   height:254px;
 }
 
 .left_column_right_side {
-  background-color: white;
   float: right;
   width:75%;
   height:254px
@@ -210,21 +214,16 @@ hr {
 
 .left_column_bottom_row {
   width:100%;
-  // background-color: blue;
   height:284px;
-  // clear:both;
 }
 
 .left_column_bottom_left_side {
-  // clear:both;
-  // background-color: green;
   float:left;
   width:25%;
   height: 284px;
 }
 
 .left_column_bottom_right_side {
-  // clear: both;
   background-color: blue;
   float: right;
   width:75%;
@@ -302,13 +301,11 @@ hr {
   float:right;
   width:75%;
   height:284px;
-  background-color: blue;
 }
 
 .middle_column_bottom_row {
   width:100%;
   height:284px;
-  background-color: green;
 }
 
 .middle_column_bottom_left {
@@ -322,7 +319,6 @@ hr {
   float:right;
   width:25%;
   height:284px;
-  background-color: white;
 }
 
 ////////// right column  ////////////////////////
@@ -372,5 +368,4 @@ hr {
   float:right;
   height:284px;
   width: 50%;
-  // background-color: purple;
 }
