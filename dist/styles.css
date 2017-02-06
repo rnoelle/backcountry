@@ -41,8 +41,39 @@ body {
 hr {
   margin: 60px 0; }
 
+.header-0 {
+  font-size: 90px;
+  line-height: 80px; }
+
 .pre-header {
   font-size: 24px;
   margin-bottom: 40px; }
+
+.exec {
+  margin-bottom: 40px; }
+
+.column-quarter {
+  float: left;
+  position: relative;
+  width: 23.5%;
+  margin-top: 1%;
+  margin-right: .5%;
+  margin-bottom: 1%;
+  margin-left: .5%; }
+
+.exec-pic {
+  width: 100%;
+  display: block; }
+  .exec-pic img {
+    width: 100%;
+    margin-right: 1%; }
+  .exec-pic h3 {
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 0; }
+
+.exec-name {
+  font-size: 18px;
+  width: 100%; }
 
 /*# sourceMappingURL=maps/styles.css.map */
