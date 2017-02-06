@@ -1,15 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
 body {
   color: #222222;
   font-family: Arial, sans-serif;
   font-size: 18px;
-  line-height: 1.5; }
+  line-height: 1.5;
+  background-color: #EFEFEF; }
+
+.container {
+  width: 75%;
+  margin: 140px auto 0; }
 
 h1 {
   color: red; }
 
-.who_section {
-  margin: 140px auto 0;
+.who_section h1 {
+  color: #222222;
+  font-size: 90px;
+  line-height: 80px;
+  margin: 0; }
+
+.who_section .who_history {
+  margin-top: 0; }
+
+.who_section .half_column {
+  float: left;
+  position: relative;
+  width: 50%;
+  padding: 30px; }
+
+.who_section img {
   width: 75%; }
+
+hr {
+  margin: 60px 0; }
 
 .pre-header {
   font-size: 24px;
