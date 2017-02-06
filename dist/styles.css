@@ -92,8 +92,7 @@ hr {
   margin: 0;
   padding: 0;
   display: inline-block;
-  width: 37.5%;
-  background-color: orange; }
+  width: 37.5%; }
 
 .column2 {
   margin: 0;
@@ -106,8 +105,7 @@ hr {
   margin: 0;
   padding: 0;
   display: inline-block;
-  width: 25%;
-  background-color: purple; }
+  width: 25%; }
 
 .left_column_top_row {
   width: 100%;
@@ -158,11 +156,9 @@ hr {
 
 .left_column_bottom_row {
   width: 100%;
-  background-color: blue;
   height: 284px; }
 
 .left_column_bottom_left_side {
-  background-color: green;
   float: left;
   width: 25%;
   height: 284px; }
@@ -190,5 +186,103 @@ hr {
   .photo_bottom_med img {
     height: 284px;
     width: 100%; }
+
+.middle_column_top_row {
+  height: 426px;
+  background-color: yellow;
+  width: 100%; }
+
+.middle_photo_large {
+  width: 100%;
+  height: 426px; }
+  .middle_photo_large img {
+    height: 426px;
+    width: 100%; }
+
+.middle_column_middle_row {
+  width: 100%;
+  height: 284px; }
+
+.middle_photo_small {
+  width: 100%;
+  height: 142px; }
+  .middle_photo_small img {
+    height: 142px;
+    width: 100%; }
+
+.middle_column_middle_left {
+  float: left;
+  width: 25%;
+  height: 284px;
+  background-color: black; }
+
+.middle_photo_medium {
+  width: 100%;
+  height: 284px; }
+  .middle_photo_medium img {
+    height: 284px;
+    width: 100%; }
+
+.middle_column_middle_right {
+  float: right;
+  width: 75%;
+  height: 284px;
+  background-color: blue; }
+
+.middle_column_bottom_row {
+  width: 100%;
+  height: 284px;
+  background-color: green; }
+
+.middle_column_bottom_left {
+  float: left;
+  width: 75%;
+  height: 284px;
+  background-color: yellow; }
+
+.middle_column_bottom_right {
+  float: right;
+  width: 25%;
+  height: 284px;
+  background-color: white; }
+
+.right_column_top_row {
+  height: 284px;
+  width: 100%;
+  background-color: yellow; }
+
+.right_photo_med {
+  height: 284px;
+  width: 100%; }
+  .right_photo_med img {
+    height: 284px;
+    width: 100%; }
+
+.right_column_middle_row {
+  height: 284px;
+  width: 100%;
+  background-color: black; }
+
+.right_column_bottom_row {
+  height: 284px;
+  width: 100%; }
+
+.right_photo_small {
+  height: 142px;
+  width: 100%; }
+  .right_photo_small img {
+    height: 142px;
+    width: 100%; }
+
+.right_column_bottom_left {
+  float: left;
+  height: 284px;
+  width: 50%;
+  background-color: white; }
+
+.right_column_bottom_right {
+  float: right;
+  height: 284px;
+  width: 50%; }
 
 /*# sourceMappingURL=maps/styles.css.map */
