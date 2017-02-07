@@ -12,7 +12,7 @@ angular.module("bcApp", ['ui.router'])
     })
     .state("shop", {
       url: "/shop",
-      templateUrl: "./views/shop-home.html",
+      templateUrl: "./views/shop-homepage.html",
       // controller: "shopController"
     })
 

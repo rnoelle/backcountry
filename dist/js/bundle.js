@@ -8,7 +8,7 @@ angular.module("bcApp", ['ui.router']).config(function ($stateProvider, $urlRout
     controller: "mainController"
   }).state("shop", {
     url: "/shop",
-    templateUrl: "./views/shop-home.html"
+    templateUrl: "./views/shop-homepage.html"
   });
 
   $urlRouterProvider.otherwise("/");
@@ -22,4 +22,19 @@ angular.module("bcApp").controller('mainController', function ($scope, mainServi
 "use strict";
 
 angular.module("bcApp").service("mainService", function () {});
+"use strict";
+
+angular.module("bcApp").directive("scrollNav", function () {
+
+  return {
+    restrict: "E",
+    templateUrl: "../views/shop-scroll-nav.html",
+    link: function link(scope, elem, attr) {
+
+      //sliding goes here
+
+
+    }
+  };
+});
 //# sourceMappingURL=bundle.js.map
