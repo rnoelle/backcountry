@@ -15,9 +15,9 @@ a {
   color: #222;
 }
 
-.bcs-container {
 
-  nav {
+
+  nav.scroll-nav {
     height: 52px;
     width: 100%;
     background: white;
@@ -103,7 +103,7 @@ a {
       align-items: center;
     }
   }
-} //end container
+ //end container
 
 
 
@@ -121,13 +121,13 @@ a {
     background: pink;
   }
 
-  .bcs-container {
+
 
     .fsize {
       font-size: 14px;
     }
 
-    nav {
+    nav.scroll-nav {
       height: 65px;
 
       .bcs-hamburger-menu {
@@ -181,13 +181,12 @@ a {
         padding-right: 15px;
       }
     }
-  }
+
 
 } //end 900px
 
 
 @media only screen and (min-width: 1100px) {
-
 
   body {
     background: purple;
@@ -201,10 +200,7 @@ a {
     display: block;
   }
 
-
-  .bcs-container {
-
-    nav {
+    nav.scroll-nav {
 
       .bcs-hamburger-menu {
         min-width: 200px;
@@ -215,6 +211,6 @@ a {
         }
       }
     }
-  }
+
 
 } //end 1100px

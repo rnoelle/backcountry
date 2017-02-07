@@ -14,7 +14,6 @@ body {
   width: 75%;
   margin: 140px auto 0; }
 
-
 .no_pad_left {
   padding-left: 0 !important; }
 
@@ -50,123 +49,6 @@ hr {
   font-size: 24px;
   margin-bottom: 40px; }
 
-
-.nav-hidden {
-  display: none; }
-
-.desktop {
-  display: none; }
-
-.mobile {
-  display: block; }
-
-a {
-  text-decoration: none;
-  color: #222; }
-
-.bcs-container nav {
-  height: 52px;
-  width: 100%;
-  background: white;
-  display: flex;
-  justify-content: space-between; }
-  .bcs-container nav .bcs-hamburger-menu {
-    min-width: 70px;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around; }
-    .bcs-container nav .bcs-hamburger-menu .hamburger-divs .hamburger-top, .bcs-container nav .bcs-hamburger-menu .hamburger-divs .hamburger-mid, .bcs-container nav .bcs-hamburger-menu .hamburger-divs .hamburger-bot {
-      width: 24px;
-      height: 4px;
-      background: #999;
-      border-radius: 5px;
-      margin-bottom: 3px; }
-    .bcs-container nav .bcs-hamburger-menu .hamburger-divs .hamburger-bot {
-      margin-bottom: 0; }
-    .bcs-container nav .bcs-hamburger-menu img {
-      margin-top: 10px;
-      height: 32px; }
-  .bcs-container nav .bcs-search-bar {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    position: relative; }
-    .bcs-container nav .bcs-search-bar i {
-      position: absolute;
-      left: 10px;
-      font-size: 16px; }
-    .bcs-container nav .bcs-search-bar input {
-      background: #efefef;
-      border: none;
-      border-radius: 4px;
-      color: #222;
-      padding: 7px 40px;
-      font-size: 14px;
-      height: 36px;
-      width: 100%;
-      outline: none; }
-  .bcs-container nav .bcs-cart {
-    width: 60px;
-    height: 100%;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-
-@media only screen and (min-width: 900px) {
-  .nav-hidden {
-    min-width: 362px;
-    display: flex;
-    align-items: center; }
-  body {
-    background: pink; }
-  .bcs-container .fsize {
-    font-size: 14px; }
-  .bcs-container nav {
-    height: 65px; }
-    .bcs-container nav .bcs-hamburger-menu img {
-      height: 45px; }
-    .bcs-container nav .bcs-hamburger-menu .hamburger-divs {
-      display: none; }
-    .bcs-container nav .bcs-search-bar input {
-      height: 45px; }
-    .bcs-container nav .bcs-chat {
-      height: 50%;
-      display: flex;
-      align-items: center;
-      padding: 0 20px; }
-    .bcs-container nav .bcs-phone {
-      height: 50%;
-      display: flex;
-      align-items: center; }
-      .bcs-container nav .bcs-phone i {
-        font-size: 26px; }
-    .bcs-container nav .bcs-my-account {
-      height: 50%;
-      display: flex;
-      align-items: center;
-      padding: 0 20px; }
-      .bcs-container nav .bcs-my-account i {
-        font-size: 30px; }
-    .bcs-container nav .bcs-cart {
-      font-size: 26px;
-      padding-right: 15px; } }
-
-@media only screen and (min-width: 1100px) {
-  body {
-    background: purple; }
-  .mobile {
-    display: none; }
-  .desktop {
-    display: block; }
-  .bcs-container nav .bcs-hamburger-menu {
-    min-width: 200px; }
-    .bcs-container nav .bcs-hamburger-menu img {
-      margin-top: 10px;
-      height: 37.2px; } }
-=======
 .exec {
   margin-bottom: 40px; }
 
@@ -407,5 +289,161 @@ a {
   height: 284px;
   width: 50%; }
 
+.nav-hidden {
+  display: none; }
+
+.desktop {
+  display: none; }
+
+.mobile {
+  display: block; }
+
+a {
+  text-decoration: none;
+  color: #222; }
+
+nav.scroll-nav {
+  height: 52px;
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: space-between; }
+  nav.scroll-nav .bcs-hamburger-menu {
+    min-width: 70px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    nav.scroll-nav .bcs-hamburger-menu .hamburger-divs .hamburger-top, nav.scroll-nav .bcs-hamburger-menu .hamburger-divs .hamburger-mid, nav.scroll-nav .bcs-hamburger-menu .hamburger-divs .hamburger-bot {
+      width: 24px;
+      height: 4px;
+      background: #999;
+      border-radius: 5px;
+      margin-bottom: 3px; }
+    nav.scroll-nav .bcs-hamburger-menu .hamburger-divs .hamburger-bot {
+      margin-bottom: 0; }
+    nav.scroll-nav .bcs-hamburger-menu img {
+      margin-top: 10px;
+      height: 32px; }
+  nav.scroll-nav .bcs-search-bar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative; }
+    nav.scroll-nav .bcs-search-bar i {
+      position: absolute;
+      left: 10px;
+      font-size: 16px; }
+    nav.scroll-nav .bcs-search-bar input {
+      background: #efefef;
+      border: none;
+      border-radius: 4px;
+      color: #222;
+      padding: 7px 40px;
+      font-size: 14px;
+      height: 36px;
+      width: 100%;
+      outline: none; }
+  nav.scroll-nav .bcs-cart {
+    width: 60px;
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+@media only screen and (min-width: 900px) {
+  .nav-hidden {
+    min-width: 362px;
+    display: flex;
+    align-items: center; }
+  body {
+    background: pink; }
+  .fsize {
+    font-size: 14px; }
+  nav.scroll-nav {
+    height: 65px; }
+    nav.scroll-nav .bcs-hamburger-menu img {
+      height: 45px; }
+    nav.scroll-nav .bcs-hamburger-menu .hamburger-divs {
+      display: none; }
+    nav.scroll-nav .bcs-search-bar input {
+      height: 45px; }
+    nav.scroll-nav .bcs-chat {
+      height: 50%;
+      display: flex;
+      align-items: center;
+      padding: 0 20px; }
+    nav.scroll-nav .bcs-phone {
+      height: 50%;
+      display: flex;
+      align-items: center; }
+      nav.scroll-nav .bcs-phone i {
+        font-size: 26px; }
+    nav.scroll-nav .bcs-my-account {
+      height: 50%;
+      display: flex;
+      align-items: center;
+      padding: 0 20px; }
+      nav.scroll-nav .bcs-my-account i {
+        font-size: 30px; }
+    nav.scroll-nav .bcs-cart {
+      font-size: 26px;
+      padding-right: 15px; } }
+
+@media only screen and (min-width: 1100px) {
+  body {
+    background: purple; }
+  .mobile {
+    display: none; }
+  .desktop {
+    display: block; }
+  nav.scroll-nav .bcs-hamburger-menu {
+    min-width: 200px; }
+    nav.scroll-nav .bcs-hamburger-menu img {
+      margin-top: 10px;
+      height: 37.2px; } }
+
+.side-nav {
+  background: #fff;
+  width: 270px;
+  font-family: 'PT Sans Narrow', helvetica, sans-serif;
+  font-size: 17px; }
+  .side-nav .side-nav-panel-head {
+    height: 51px;
+    padding: 0 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #efefef; }
+    .side-nav .side-nav-panel-head img {
+      height: 25px; }
+    .side-nav .side-nav-panel-head div {
+      display: flex;
+      align-items: center; }
+      .side-nav .side-nav-panel-head div i {
+        font-size: 30px;
+        padding-left: 5px; }
+  .side-nav .side-nav-panel-body .side-nav-panel-link {
+    padding: 11px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #efefef; }
+  .side-nav .side-nav-panel-footer {
+    height: 140px;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px; }
+    .side-nav .side-nav-panel-footer h5 {
+      font-size: 17px;
+      font-weight: bolder;
+      padding-bottom: 8px; }
+    .side-nav .side-nav-panel-footer .call-box {
+      display: inline;
+      border: 1px solid black;
+      padding: 4px 20px;
+      font-size: 16px; }
 
 /*# sourceMappingURL=maps/styles.css.map */
