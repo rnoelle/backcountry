@@ -121,10 +121,12 @@ hr {
   clear:both;
   position: relative;
   width: 100%;
-  height: 868px;
+  height: 1000px;
   background-color: #EFEFEF;
-  margin:0;
+  // margin:0;
   padding:0;
+  margin-top: 40px;
+  margin-bottom:40px;
 
 }
 
@@ -375,5 +377,65 @@ hr {
 
 
 .bc-work {
-  
+  footer{
+    margin-top: 40px;
+    background-color: #222222;
+    color:#ffffff;
+    display:block;
+    float:left;
+    position:relative;
+    padding-top:60px;
+    padding-bottom:100px;
+    width:100%;
+    z-index: 1;
+    font-size:15px;
+    a {
+      color: #fff;
+      text-decoration: underline;
+    }
+    .footer_container {
+      width:90%;
+      z-index: 10;
+    }
+
+  }
+
+  .column_third {
+    float:left;
+    position:relative;
+    padding: 20px;
+    // width:33%
+    font-size:15px;
+  }
+  h3 {
+    font-size:18px;
+    line-height: 1.5;
+  }
+  .social_icons {
+    list-style: none;
+    margin:0;
+    padding:0;
+
+    li {
+      display: inline-block;
+      // background-color: red;
+    }
+
+  }
+
+
+  .facebook {
+    // background-image:
+    li {
+      background-image: url(images/social_icons/ico-24-facebook-white@2x.png) blue;
+      background-position: center center;
+      background-size: 24px 24px;
+      display: inline;
+      list-style-type: none;
+      height:24px;
+      margin-right: 10px;
+      width:24px;
+      float:left;
+    }
+  }
 }
