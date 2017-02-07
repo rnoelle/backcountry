@@ -6,6 +6,9 @@ angular.module("bcApp", ['ui.router']).config(function ($stateProvider, $urlRout
     url: "/",
     templateUrl: "./views/bc-corp.html",
     controller: "mainController"
+  }).state("shop", {
+    url: "/shop",
+    templateUrl: "./views/shop-home.html"
   });
 
   $urlRouterProvider.otherwise("/");
