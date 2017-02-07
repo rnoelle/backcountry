@@ -313,7 +313,8 @@ nav.scroll-nav {
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around; }
+    justify-content: space-around;
+    cursor: pointer; }
     nav.scroll-nav .bcs-hamburger-menu .hamburger-divs .hamburger-top, nav.scroll-nav .bcs-hamburger-menu .hamburger-divs .hamburger-mid, nav.scroll-nav .bcs-hamburger-menu .hamburger-divs .hamburger-bot {
       width: 24px;
       height: 4px;
@@ -405,11 +406,30 @@ nav.scroll-nav {
       margin-top: 10px;
       height: 37.2px; } }
 
+.hidden-left {
+  padding-right: 270px; }
+
+.hideme {
+  position: absolute;
+  margin-left: -270px;
+  background: pink;
+  left: 0;
+  top: 52px;
+  transition: 0.5s; }
+
+.showme {
+  left: 270px; }
+
+.cssl {
+  color: red; }
+
 .side-nav {
   background: #fff;
   width: 270px;
   font-family: 'PT Sans Narrow', helvetica, sans-serif;
-  font-size: 17px; }
+  font-size: 17px;
+  transition: 2s;
+  overflow-y: auto; }
   .side-nav .side-nav-panel-head {
     height: 51px;
     padding: 0 26px;
