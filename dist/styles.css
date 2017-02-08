@@ -10,10 +10,6 @@ body {
   line-height: 1.5;
   background-color: #EFEFEF; }
 
-.container {
-  width: 75%;
-  margin: 140px auto 0; }
-
 .no_pad_left {
   padding-left: 0 !important; }
 
@@ -290,41 +286,90 @@ hr {
   height: 284px;
   width: 50%; }
 
+.bc-work .muse_container .muse_photos {
+  display: block; }
+  .bc-work .muse_container .muse_photos img {
+    width: 100%;
+    height: auto; }
+
+.bc-work .muse_container .powered_by {
+  margin-left: 40%; }
+  .bc-work .muse_container .powered_by img {
+    width: 40%;
+    height: 40%; }
+
+.bc-work .perk_container {
+  width: 90%;
+  margin: auto; }
+  .bc-work .perk_container .work_list {
+    list-style: none;
+    background-color: #fff;
+    padding: 18px; }
+    .bc-work .perk_container .work_list hr {
+      margin: 10px 0; }
+  .bc-work .perk_container h2 {
+    margin: 20px 0; }
+  .bc-work .perk_container p {
+    margin: 5px 0; }
+
+.bc-work .benefit_container {
+  width: 90%;
+  margin: auto; }
+  .bc-work .benefit_container .who_list {
+    list-style: none;
+    background-color: white;
+    padding: 18px; }
+    .bc-work .benefit_container .who_list hr {
+      margin-top: 10px;
+      margin-bottom: 10px; }
+  .bc-work .benefit_container h2 {
+    margin: 20px 0; }
+  .bc-work .benefit_container .two_column {
+    margin: 25px 0; }
+
 .bc-work footer {
   margin-top: 40px;
   background-color: #222222;
   color: #ffffff;
   display: block;
   float: left;
+  font-size: 24px;
   position: relative;
   padding-top: 60px;
   padding-bottom: 100px;
   width: 100%;
-  z-index: 1;
-  font-size: 15px; }
+  z-index: 1; }
   .bc-work footer a {
     color: #fff;
     text-decoration: underline; }
-  .bc-work footer .footer_container {
-    width: 90%;
-    z-index: 10; }
 
 .bc-work .column_third {
   float: left;
   position: relative;
-  padding: 20px;
-  font-size: 15px; }
+  padding: 70px;
+  margin-top: 100px;
+  margin-bottom: 60px; }
 
 .bc-work h3 {
-  font-size: 18px;
-  line-height: 1.5; }
+  font-size: 28px;
+  line-height: 1.5;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 900; }
+
+.bc-work p {
+  margin-top: 80px; }
 
 .bc-work .social_icons {
   list-style: none;
   margin: 0;
   padding: 0; }
   .bc-work .social_icons li {
+    padding: 20px;
     display: inline-block; }
+    .bc-work .social_icons li img {
+      width: 100px;
+      height: 100px; }
 
 .bc-work .facebook li {
   background-image: url(images/social_icons/ico-24-facebook-white@2x.png) blue;
@@ -332,9 +377,39 @@ hr {
   background-size: 24px 24px;
   display: inline;
   list-style-type: none;
-  height: 24px;
+  height: 32px;
   margin-right: 10px;
-  width: 24px;
+  width: 32px;
+  float: left; }
+
+.bc-work .twitter li {
+  background-position: center center;
+  background-size: 24px 24px;
+  display: inline;
+  list-style-type: none;
+  height: 32px;
+  margin-right: 10px;
+  width: 32px;
+  float: left; }
+
+.bc-work .gplus li {
+  background-position: center center;
+  background-size: 24px 24px;
+  display: inline;
+  list-style-type: none;
+  height: 32px;
+  margin-right: 10px;
+  width: 32px;
+  float: left; }
+
+.bc-work .instagram li {
+  background-position: center center;
+  background-size: 24px 24px;
+  display: inline;
+  list-style-type: none;
+  height: 32px;
+  margin-right: 10px;
+  width: 32px;
   float: left; }
 
 .nav-hidden {
