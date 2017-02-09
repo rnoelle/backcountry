@@ -22,6 +22,47 @@ body {
 //   // margin: 140px auto 0;
 //   // // width: 75%;
 // }
+///////// WHERE SECTION ///////////////////////
+.bc-where {
+  width:90%;
+  margin:auto;
+  h1 {
+    color: #222222;
+    font-size: 90px;
+    line-height: 80px;
+    margin: 0;
+  }
+
+  hr {
+    // width:90%;
+    margin: 60px auto;
+  }
+
+  .pre-header {
+    margin-bottom:60px;
+  }
+
+  .playground_container {
+    // width:90%;
+    margin:40px auto;
+
+    .best_town_photo {
+      margin-top: 40px;
+      img {
+        width:100%;
+      }
+    }
+  }
+
+  .also_in_container {
+    .where_also_in {
+      margin:60px 0;
+    }
+  }
+
+
+}
+
 
 
 ////////WHO SECTION ///////////////////////////
