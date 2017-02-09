@@ -1,10 +1,46 @@
+.hidden-left {
+  padding-right: 270px;
+  // margin-top: 500px;
+}
 
+.hideme {
+  // display: none;
+  position: absolute;
+  margin-left: -270px;
+  background: pink;
+  left: 0;
+  top: 0;
+  // top: 52px;
+  transition: 0.5s;
+  z-index: 111;
+
+}
+
+.showme {
+  // display: block;
+  left: 270px;
+}
+
+.cssl {
+  color: red;
+}
 .side-nav {
   background: #fff;
   width: 270px;
-  // height: 386px;
+  // opacity: 0.2;
+  // height: 450px;
   font-family: 'PT Sans Narrow', helvetica, sans-serif;
   font-size: 17px;
+  // position: absolute;
+  // left: -270px;
+  // left: 0;
+  // top: 52px;
+  // top: 0;
+  // z-index: 1;
+
+  transition: 2s;
+  overflow-y: auto;
+
 
   .side-nav-panel-head {
     height: 51px;

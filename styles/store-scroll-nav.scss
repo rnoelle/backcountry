@@ -15,8 +15,6 @@ a {
   color: #222;
 }
 
-
-
   nav.scroll-nav {
     height: 52px;
     width: 100%;
@@ -30,6 +28,7 @@ a {
       display: flex;
       align-items: center;
       justify-content: space-around;
+      cursor: pointer;
 
       .hamburger-divs {
 
