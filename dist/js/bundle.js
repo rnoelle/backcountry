@@ -21,6 +21,9 @@ angular.module("bcApp").controller('mainController', function ($scope, mainServi
 });
 "use strict";
 
+angular.module("bcApp").service("mainService", function () {});
+"use strict";
+
 angular.module("bcApp").directive("scrollNav", function () {
 
   return {
@@ -43,14 +46,17 @@ angular.module("bcApp").directive("slideNavMobile", function ($document) {
     templateUrl: "../views/shop-slide-nav.html",
     link: function link(scope, elem, attr) {
       // elem.hide();
-      $(".bcs-hamburger-menu").on("click", function () {
+      $(".bcs-hamburger-menu").on("click", function (e) {
+        e.stopPropagation();
         console.log("fired");
-        elem.toggleClass("showme");
+        elem.addClass("showme");
+      });
+
+      $(document).on("click", function (e) {
+        console.log("body clicked");
+        elem.removeClass("showme");
       });
     }
   };
 });
-"use strict";
-
-angular.module("bcApp").service("mainService", function () {});
 //# sourceMappingURL=bundle.js.map

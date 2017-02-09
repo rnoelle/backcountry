@@ -289,6 +289,93 @@ hr {
   height: 284px;
   width: 50%; }
 
+.shop-desktop {
+  display: none; }
+
+nav.wide-nav {
+  width: 100%;
+  background: #fff;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+  font-family: 'PT Sans Narrow', helvetica, sans-serif;
+  font-size: 15px; }
+  nav.wide-nav ul {
+    display: table;
+    margin: 0 auto;
+    table-layout: fixed;
+    width: 100%; }
+    nav.wide-nav ul li {
+      display: table-cell;
+      text-align: center;
+      padding: 10px 5px;
+      border-left: 1px solid #efefef; }
+    nav.wide-nav ul li:last-child {
+      border-right: 1px solid #efefef; }
+
+.main-brands {
+  width: 100%;
+  background: #fff;
+  padding: 10px; }
+  .main-brands ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .main-brands ul li {
+      margin-bottom: -8px; }
+      .main-brands ul li img {
+        height: 45px;
+        opacity: 0.5; }
+      .main-brands ul li :hover {
+        opacity: 1; }
+
+.bcs-container {
+  background: green;
+  height: 1000px;
+  width: 100%;
+  padding: 0 20px; }
+  .bcs-container .storyboard-top {
+    padding: 20px 0;
+    font-family: 'PT Sans Narrow', helvetica, sans-serif;
+    font-size: 20px; }
+    .bcs-container .storyboard-top a.hi {
+      background: url("../images/shop/storyboard/SF12.jpg") no-repeat center;
+      background-size: 20px auto;
+      display: inline-block;
+      width: 20px;
+      height: 20px; }
+    .bcs-container .storyboard-top a {
+      display: block;
+      width: 30%; }
+      .bcs-container .storyboard-top a div {
+        position: relative;
+        width: 100%;
+        color: white; }
+        .bcs-container .storyboard-top a div img {
+          width: 100%; }
+        .bcs-container .storyboard-top a div span.bigtext {
+          line-height: 24px;
+          display: block;
+          width: 100%;
+          padding: 8px 10px 4px;
+          position: absolute;
+          background: rgba(0, 0, 0, 0.3);
+          bottom: 5px;
+          transition: 0.3s; }
+          .bcs-container .storyboard-top a div span.bigtext span.littletext {
+            display: inline-block;
+            font-size: 16px; }
+    .bcs-container .storyboard-top :hover div span.bigtext {
+      background: rgba(0, 0, 0, 0.7); }
+
+@media only screen and (min-width: 900px) {
+  .shop-desktop {
+    display: block; }
+  .main-brands {
+    padding: 10px 20px; }
+    .main-brands ul li img {
+      height: 50px; } }
+
 .nav-hidden {
   display: none; }
 
@@ -414,8 +501,9 @@ nav.scroll-nav {
   margin-left: -270px;
   background: pink;
   left: 0;
-  top: 52px;
-  transition: 0.5s; }
+  top: 0;
+  transition: 0.5s;
+  z-index: 111; }
 
 .showme {
   left: 270px; }
