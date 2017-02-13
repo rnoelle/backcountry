@@ -550,7 +550,9 @@ body {
         position: relative;
         padding:0 10px;
         width:100%;
+        max-width: 325px;
         height:auto;
+        margin: 0 auto;
       }
 
       .georgia, .nick, .rob {
@@ -682,7 +684,7 @@ footer{
   .column_third {
     // float:left;
     position:relative;
-    padding: 40px;
+    padding: 20px;
     margin-top:100px;
     margin-bottom:60px;
     // width:33%
@@ -783,15 +785,40 @@ footer{
 
 @media only screen and (min-width: 601px) {
   footer {
-    background-color: blue;
+    // background-color: blue;
     // color:green;
-
     .column_third {
-      width:33%;
+      display:inline-block;
+      width:32%;
       font-size:15px;
+      vertical-align: text-top;
+      margin-top: 20px;
+    }
+
+    .social_icons {
+      li {
+        padding:2px;
+      }
     }
   }
-  a {
-    color:red;
+
+  .benefit_container {
+    width:75%;
+    .who_list {
+      width: 50%;
+    }
+  }
+
+  .perk_container {
+    .two_column {
+      font-size: 15px;
+      display: inline-block;
+      vertical-align: text-top;
+      width:49%;
+    }
+    p {
+      width: 95%;
+      margin: 0px 10px;
+    }
   }
 }

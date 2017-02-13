@@ -337,7 +337,9 @@ body {
       position: relative;
       padding: 0 10px;
       width: 100%;
-      height: auto; }
+      max-width: 325px;
+      height: auto;
+      margin: 0 auto; }
     .bc-work .muse_container .muse_photos .georgia, .bc-work .muse_container .muse_photos .nick, .bc-work .muse_container .muse_photos .rob {
       position: relative; }
       .bc-work .muse_container .muse_photos .georgia a, .bc-work .muse_container .muse_photos .nick a, .bc-work .muse_container .muse_photos .rob a {
@@ -431,7 +433,7 @@ footer {
     text-decoration: underline; }
   footer .column_third {
     position: relative;
-    padding: 40px;
+    padding: 20px;
     margin-top: 100px;
     margin-bottom: 60px; }
   footer h3 {
@@ -492,13 +494,26 @@ footer {
     float: left; }
 
 @media only screen and (min-width: 601px) {
-  footer {
-    background-color: blue; }
-    footer .column_third {
-      width: 33%;
-      font-size: 15px; }
-  a {
-    color: red; } }
+  footer .column_third {
+    display: inline-block;
+    width: 32%;
+    font-size: 15px;
+    vertical-align: text-top;
+    margin-top: 20px; }
+  footer .social_icons li {
+    padding: 2px; }
+  .benefit_container {
+    width: 75%; }
+    .benefit_container .who_list {
+      width: 50%; }
+  .perk_container .two_column {
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 49%; }
+  .perk_container p {
+    width: 95%;
+    margin: 0px 10px; } }
 
 .shop-desktop {
   display: none; }
