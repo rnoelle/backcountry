@@ -15,8 +15,8 @@ body {
   margin: auto; }
   .bc-where h1 {
     color: #222222;
-    font-size: 90px;
-    line-height: 80px;
+    font-size: 42px;
+    line-height: 34px;
     margin: 0; }
   .bc-where hr {
     margin: 60px auto; }
@@ -33,8 +33,8 @@ body {
 
 .bc-who h1 {
   color: #222222;
-  font-size: 90px;
-  line-height: 80px;
+  font-size: 42px;
+  line-height: 34px;
   margin: 0; }
 
 .bc-who hr {
@@ -65,9 +65,9 @@ body {
     position: relative;
     width: 100%;
     padding: 30px;
-    margin: 100px auto; }
+    margin: 50px auto; }
     .bc-who .our_sites_container .half_column h4 {
-      font-size: 40px; }
+      font-size: 18px; }
     .bc-who .our_sites_container .half_column a {
       color: blue; }
     .bc-who .our_sites_container .half_column img {
@@ -80,8 +80,8 @@ body {
   margin: 40px auto;
   font-size: 24px; }
   .bc-who .our_team_container .header-0 {
-    font-size: 90px;
-    line-height: 80px; }
+    font-size: 42px;
+    line-height: 34px; }
   .bc-who .our_team_container .pre-header {
     margin-bottom: 60px; }
 
@@ -91,29 +91,34 @@ body {
   font-size: 24px; }
 
 .bc-who .exec_container .exec {
-  margin-bottom: 40px; }
+  margin-bottom: 60px; }
 
 .bc-who .exec_container .exec-name {
-  font-size: 44px;
+  font-size: 14px;
   font-weight: bolder;
   width: 100%;
-  margin-bottom: 0; }
+  margin: 0; }
+
+.bc-who .exec_container .exec-title {
+  font-size: 12px;
+  margin-top: 0px; }
 
 .bc-who .exec_container .exec_people {
-  margin: 40px auto; }
+  margin: 0px auto; }
 
 .bc-who .exec_container .column-quarter {
   float: left;
   position: relative;
   width: 47%;
-  margin-top: 2.5%;
+  margin-top: .5%;
   margin-right: 1%;
   margin-bottom: 2.5%;
   margin-left: 1%; }
 
 .bc-who .exec_container .exec-pic {
   width: 100%;
-  display: block; }
+  display: block;
+  margin-bottom: 0px; }
   .bc-who .exec_container .exec-pic img {
     width: 100%;
     margin-left: auto;
@@ -300,8 +305,8 @@ body {
 
 .bc-work h1 {
   color: #222222;
-  font-size: 90px;
-  line-height: 80px;
+  font-size: 42px;
+  line-height: 34px;
   margin: 0; }
 
 .bc-work hr {
@@ -318,52 +323,58 @@ body {
   .bc-work .current_opening_container a {
     color: blue; }
 
-.bc-work .muse_container .muse_photos {
-  display: block;
-  position: relative; }
-  .bc-work .muse_container .muse_photos img {
-    position: relative;
-    padding: 0 50px;
-    width: 100%;
-    height: auto; }
-  .bc-work .muse_container .muse_photos .georgia, .bc-work .muse_container .muse_photos .nick, .bc-work .muse_container .muse_photos .rob {
+.bc-work .muse_container {
+  width: 100%; }
+  .bc-work .muse_container .muse_photos {
+    display: block;
     position: relative; }
-    .bc-work .muse_container .muse_photos .georgia a, .bc-work .muse_container .muse_photos .nick a, .bc-work .muse_container .muse_photos .rob a {
-      color: white; }
-    .bc-work .muse_container .muse_photos .georgia .spotlight, .bc-work .muse_container .muse_photos .nick .spotlight, .bc-work .muse_container .muse_photos .rob .spotlight {
-      position: absolute;
-      bottom: 150px;
-      left: 20%; }
-      .bc-work .muse_container .muse_photos .georgia .spotlight .spotlight_name, .bc-work .muse_container .muse_photos .georgia .spotlight .spotlight_title, .bc-work .muse_container .muse_photos .georgia .spotlight .spotlight_greet, .bc-work .muse_container .muse_photos .nick .spotlight .spotlight_name, .bc-work .muse_container .muse_photos .nick .spotlight .spotlight_title, .bc-work .muse_container .muse_photos .nick .spotlight .spotlight_greet, .bc-work .muse_container .muse_photos .rob .spotlight .spotlight_name, .bc-work .muse_container .muse_photos .rob .spotlight .spotlight_title, .bc-work .muse_container .muse_photos .rob .spotlight .spotlight_greet {
-        text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-        font-size: 50px;
+    .bc-work .muse_container .muse_photos img {
+      position: relative;
+      padding: 0 10px;
+      width: 100%;
+      height: auto; }
+    .bc-work .muse_container .muse_photos .georgia, .bc-work .muse_container .muse_photos .nick, .bc-work .muse_container .muse_photos .rob {
+      position: relative; }
+      .bc-work .muse_container .muse_photos .georgia a, .bc-work .muse_container .muse_photos .nick a, .bc-work .muse_container .muse_photos .rob a {
+        color: white; }
+      .bc-work .muse_container .muse_photos .georgia .spotlight, .bc-work .muse_container .muse_photos .nick .spotlight, .bc-work .muse_container .muse_photos .rob .spotlight {
+        position: absolute;
+        bottom: 100px;
+        left: 13%; }
+        .bc-work .muse_container .muse_photos .georgia .spotlight .spotlight_name, .bc-work .muse_container .muse_photos .georgia .spotlight .spotlight_title, .bc-work .muse_container .muse_photos .georgia .spotlight .spotlight_greet, .bc-work .muse_container .muse_photos .nick .spotlight .spotlight_name, .bc-work .muse_container .muse_photos .nick .spotlight .spotlight_title, .bc-work .muse_container .muse_photos .nick .spotlight .spotlight_greet, .bc-work .muse_container .muse_photos .rob .spotlight .spotlight_name, .bc-work .muse_container .muse_photos .rob .spotlight .spotlight_title, .bc-work .muse_container .muse_photos .rob .spotlight .spotlight_greet {
+          text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+          font-size: 18px;
+          font-weight: bolder;
+          color: white;
+          text-align: center; }
+        .bc-work .muse_container .muse_photos .georgia .spotlight .spotlight_name, .bc-work .muse_container .muse_photos .nick .spotlight .spotlight_name, .bc-work .muse_container .muse_photos .rob .spotlight .spotlight_name {
+          text-align: center;
+          margin-bottom: 30px; }
+    .bc-work .muse_container .muse_photos .our_office, .bc-work .muse_container .muse_photos .work_play {
+      text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+      position: relative; }
+      .bc-work .muse_container .muse_photos .our_office .spotlight h2, .bc-work .muse_container .muse_photos .work_play .spotlight h2 {
+        position: absolute;
+        bottom: 50px;
+        right: 20%;
+        text-align: right;
+        font-size: 32px;
         font-weight: bolder;
         color: white; }
-  .bc-work .muse_container .muse_photos .our_office, .bc-work .muse_container .muse_photos .work_play {
-    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-    position: relative; }
-    .bc-work .muse_container .muse_photos .our_office .spotlight h2, .bc-work .muse_container .muse_photos .work_play .spotlight h2 {
-      position: absolute;
-      bottom: 150px;
-      right: 10%;
-      text-align: right;
-      font-size: 130px;
-      font-weight: bolder;
-      color: white; }
-    .bc-work .muse_container .muse_photos .our_office .spotlight .spotlight_name, .bc-work .muse_container .muse_photos .work_play .spotlight .spotlight_name {
-      text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-      position: absolute;
-      bottom: 150px;
-      left: 20%;
-      font-size: 50px;
-      font-weight: bolder;
-      color: white; }
-
-.bc-work .muse_container .powered_by {
-  margin-left: 40%; }
-  .bc-work .muse_container .powered_by img {
-    width: 40%;
-    height: 40%; }
+      .bc-work .muse_container .muse_photos .our_office .spotlight .spotlight_name, .bc-work .muse_container .muse_photos .work_play .spotlight .spotlight_name {
+        width: 90%;
+        text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+        position: absolute;
+        bottom: 20px;
+        font-size: 18px;
+        font-weight: bolder;
+        color: white;
+        text-align: right; }
+  .bc-work .muse_container .powered_by {
+    margin-left: 40%; }
+    .bc-work .muse_container .powered_by img {
+      width: 40%;
+      height: 40%; }
 
 .bc-work .perk_container {
   width: 90%;
@@ -394,90 +405,91 @@ body {
   .bc-work .benefit_container .two_column {
     margin: 25px 0; }
 
-.bc-work footer {
+footer {
   margin-top: 40px;
   background-color: #222222;
   color: #ffffff;
   display: block;
   float: left;
-  font-size: 24px;
+  font-size: 18px;
   position: relative;
   padding-top: 60px;
   padding-bottom: 100px;
   width: 100%;
   z-index: 1; }
-  .bc-work footer a {
+  footer a {
     color: #fff;
     text-decoration: underline; }
+  footer .column_third {
+    position: relative;
+    padding: 40px;
+    margin-top: 100px;
+    margin-bottom: 60px; }
+  footer h3 {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 900; }
+  footer p {
+    margin-top: 40px; }
+  footer .social_icons {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    footer .social_icons li {
+      padding: 5px;
+      display: inline-block; }
+      footer .social_icons li img {
+        width: 24px;
+        height: 24px; }
+  footer .facebook li {
+    background-image: url(images/social_icons/ico-24-facebook-white@2x.png) blue;
+    background-position: center center;
+    background-size: 24px 24px;
+    display: inline;
+    list-style-type: none;
+    height: 32px;
+    margin-right: 10px;
+    width: 32px;
+    float: left;
+    background-color: blue; }
+  footer .twitter li {
+    background-position: center center;
+    background-size: 24px 24px;
+    display: inline;
+    list-style-type: none;
+    height: 32px;
+    margin-right: 10px;
+    width: 32px;
+    float: left; }
+  footer .gplus li {
+    background-position: center center;
+    background-size: 24px 24px;
+    display: inline;
+    list-style-type: none;
+    height: 32px;
+    margin-right: 10px;
+    width: 32px;
+    float: left; }
+  footer .instagram li {
+    background-position: center center;
+    background-size: 24px 24px;
+    display: inline;
+    list-style-type: none;
+    height: 32px;
+    margin-right: 10px;
+    width: 32px;
+    float: left; }
 
-.bc-work .column_third {
-  float: left;
-  position: relative;
-  padding: 70px;
-  margin-top: 100px;
-  margin-bottom: 60px; }
-
-.bc-work h3 {
-  font-size: 28px;
-  line-height: 1.5;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-weight: 900; }
-
-.bc-work p {
-  margin-top: 80px; }
-
-.bc-work .social_icons {
-  list-style: none;
-  margin: 0;
-  padding: 0; }
-  .bc-work .social_icons li {
-    padding: 20px;
-    display: inline-block; }
-    .bc-work .social_icons li img {
-      width: 100px;
-      height: 100px; }
-
-.bc-work .facebook li {
-  background-image: url(images/social_icons/ico-24-facebook-white@2x.png) blue;
-  background-position: center center;
-  background-size: 24px 24px;
-  display: inline;
-  list-style-type: none;
-  height: 32px;
-  margin-right: 10px;
-  width: 32px;
-  float: left; }
-
-.bc-work .twitter li {
-  background-position: center center;
-  background-size: 24px 24px;
-  display: inline;
-  list-style-type: none;
-  height: 32px;
-  margin-right: 10px;
-  width: 32px;
-  float: left; }
-
-.bc-work .gplus li {
-  background-position: center center;
-  background-size: 24px 24px;
-  display: inline;
-  list-style-type: none;
-  height: 32px;
-  margin-right: 10px;
-  width: 32px;
-  float: left; }
-
-.bc-work .instagram li {
-  background-position: center center;
-  background-size: 24px 24px;
-  display: inline;
-  list-style-type: none;
-  height: 32px;
-  margin-right: 10px;
-  width: 32px;
-  float: left; }
+@media only screen and (min-width: 601px) {
+  footer {
+    background-color: blue; }
+    footer .column_third {
+      width: 33%;
+      font-size: 15px; }
+  a {
+    color: red; } }
 
 .shop-desktop {
   display: none; }
