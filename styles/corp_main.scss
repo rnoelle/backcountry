@@ -548,7 +548,7 @@ body {
       position: relative;
       img {
         position: relative;
-        padding:0 10px;
+        padding:5px 10px;
         width:100%;
         // max-width: 325px;
         height:auto;
@@ -825,36 +825,44 @@ footer{
       margin: 0px 10px;
     }
   }
+
+
+  .exec_container {
+    .column-quarter {
+      float: left;
+      position: relative;
+      width: 23.5%;
+      margin-top: .5%;
+      margin-right: 1%;
+      margin-bottom: 2.5%;
+      margin-left:1%;
+    }
+  }
+
 }
 
 @media only screen and (min-width: 690px) {
   .muse_container {
     background-color: white;
-    // display: inline;
+
   }
   .powered_by {
     float:right;
   }
   .muse_row1 {
+    padding:0px;
     width:100%;
     display: inline-block;
     background-color: white;
-    // height: 301px;
-    // .our_office {
-    //   width:50%;
-    // }
-    // .work_play, .wall_climb {
-    //   display:inline-block;
-    //   height: 50%;
-    //   width: 100%;
-    //
-    // }
+    position: relative;
+    // vertical-align: top;
+
     .muse_row1_left {
       float:left;
       width:66%;
       height:100%;
       img {
-        padding: 5px 0px;
+        padding: 5px 10px;
         width:100%;
         height: 100%;
       }
@@ -864,10 +872,10 @@ footer{
       width:33%;
       height:100%;
       .work_play, .wall_climb {
-        height: 45%;
+        height: 50%;
         img {
-          padding: 5px 5px;
-          height:100%;
+          // padding: 5px 5px;
+          // height:100%;
         }
       }
     }
