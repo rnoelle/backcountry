@@ -56,10 +56,27 @@ body {
 
   .also_in_container {
     .where_also_in {
-      margin:60px 0;
+      margin:30px 0;
     }
   }
-
+  .also_in_large {
+    display:none;
+  }
+  .slc_photo {
+    display:none;
+  }
+  .christiansburg_photo {
+    display: none;
+  }
+  .portland_photo {
+    display:none;
+  }
+  .costa_rica_photo {
+    display: none;
+  }
+  .germany_photo {
+    display:none;
+  }
 
 }
 
@@ -877,6 +894,63 @@ footer{
           }
         }
       }
+    }
+  }
+  .also_in_small {
+    display:none;
+  }
+  .also_in_large {
+    display:block !important;
+  }
+
+  .where_distribution_photos {
+    // background-color: blue;
+    width:100%;
+    .where_half_column {
+
+      display:inline-block;
+      vertical-align: top;
+      margin-right: 5px;
+      width:47%;
+      p {
+        margin-top: 10px;
+        font-size: 15px;
+      }
+      h2 {
+        font-size: 24px;
+      }
+      .slc_photo, .christiansburg_photo {
+        display: block;
+        img {
+          width:100%;
+        }
+      }
+    }
+  }
+
+  .where_small_pictures {
+    // background-color: red;
+    // display: inline-block;
+    width:100%;
+    .where_column_third {
+      .portland_photo, .costa_rica_photo, .germany_photo {
+        margin-right: 5px;
+        display:block;
+        margin-bottom: 10px;
+        img {
+          width:100%
+        }
+      }
+      p {
+        margin-top: 10px;
+        font-size: 15px;
+      }
+      h2 {
+        font-size: 24px;
+      }
+      width:32%;
+      display:inline-block;
+      vertical-align: top;
     }
   }
 

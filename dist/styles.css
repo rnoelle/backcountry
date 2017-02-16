@@ -29,7 +29,19 @@ body {
       .bc-where .playground_container .best_town_photo img {
         width: 100%; }
   .bc-where .also_in_container .where_also_in {
-    margin: 60px 0; }
+    margin: 30px 0; }
+  .bc-where .also_in_large {
+    display: none; }
+  .bc-where .slc_photo {
+    display: none; }
+  .bc-where .christiansburg_photo {
+    display: none; }
+  .bc-where .portland_photo {
+    display: none; }
+  .bc-where .costa_rica_photo {
+    display: none; }
+  .bc-where .germany_photo {
+    display: none; }
 
 .bc-who h1 {
   color: #222222;
@@ -542,7 +554,44 @@ footer {
       .our_sites_container .half_column .site_links a {
         font-size: 15px; }
         .our_sites_container .half_column .site_links a .site_detail_link {
-          display: inline-block !important; } }
+          display: inline-block !important; }
+  .also_in_small {
+    display: none; }
+  .also_in_large {
+    display: block !important; }
+  .where_distribution_photos {
+    width: 100%; }
+    .where_distribution_photos .where_half_column {
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 5px;
+      width: 47%; }
+      .where_distribution_photos .where_half_column p {
+        margin-top: 10px;
+        font-size: 15px; }
+      .where_distribution_photos .where_half_column h2 {
+        font-size: 24px; }
+      .where_distribution_photos .where_half_column .slc_photo, .where_distribution_photos .where_half_column .christiansburg_photo {
+        display: block; }
+        .where_distribution_photos .where_half_column .slc_photo img, .where_distribution_photos .where_half_column .christiansburg_photo img {
+          width: 100%; }
+  .where_small_pictures {
+    width: 100%; }
+    .where_small_pictures .where_column_third {
+      width: 32%;
+      display: inline-block;
+      vertical-align: top; }
+      .where_small_pictures .where_column_third .portland_photo, .where_small_pictures .where_column_third .costa_rica_photo, .where_small_pictures .where_column_third .germany_photo {
+        margin-right: 5px;
+        display: block;
+        margin-bottom: 10px; }
+        .where_small_pictures .where_column_third .portland_photo img, .where_small_pictures .where_column_third .costa_rica_photo img, .where_small_pictures .where_column_third .germany_photo img {
+          width: 100%; }
+      .where_small_pictures .where_column_third p {
+        margin-top: 10px;
+        font-size: 15px; }
+      .where_small_pictures .where_column_third h2 {
+        font-size: 24px; } }
 
 @media only screen and (min-width: 690px) {
   .muse_container {
