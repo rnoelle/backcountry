@@ -29,7 +29,23 @@ body {
       .bc-where .playground_container .best_town_photo img {
         width: 100%; }
   .bc-where .also_in_container .where_also_in {
-    margin: 60px 0; }
+    margin: 30px 0; }
+  .bc-where .best_photos_large {
+    display: none; }
+  .bc-where .best_town_paragraphs {
+    display: none; }
+  .bc-where .also_in_large {
+    display: none; }
+  .bc-where .slc_photo {
+    display: none; }
+  .bc-where .christiansburg_photo {
+    display: none; }
+  .bc-where .portland_photo {
+    display: none; }
+  .bc-where .costa_rica_photo {
+    display: none; }
+  .bc-where .germany_photo {
+    display: none; }
 
 .bc-who h1 {
   color: #222222;
@@ -61,11 +77,10 @@ body {
     font-size: 90px;
     line-height: 80px; }
   .bc-who .our_sites_container .pre-header {
-    margin-bottom: 60px; }
+    margin-bottom: 30px; }
   .bc-who .our_sites_container .half_column {
     float: left;
     position: relative;
-    width: 100%;
     padding: 30px;
     margin: 50px auto; }
     .bc-who .our_sites_container .half_column h4 {
@@ -74,8 +89,14 @@ body {
       color: blue; }
     .bc-who .our_sites_container .half_column img {
       width: 100%; }
+    .bc-who .our_sites_container .half_column .site_detail {
+      display: none; }
+    .bc-who .our_sites_container .half_column .site_detail_link {
+      display: none; }
   .bc-who .our_sites_container .no_pad_left {
-    padding-left: 0 !important; }
+    padding-left: 0; }
+  .bc-who .our_sites_container .no_pad_right {
+    padding-right: 0; }
 
 .bc-who .our_team_container {
   width: 90%;
@@ -106,7 +127,8 @@ body {
   margin-top: 0px; }
 
 .bc-who .exec_container .exec_people {
-  margin: 0px auto; }
+  margin: 0px auto;
+  height: auto; }
 
 .bc-who .exec_container .column-quarter {
   float: left;
@@ -331,13 +353,11 @@ body {
 .bc-work .muse_container {
   width: 100%; }
   .bc-work .muse_container .muse_photos {
-    display: block;
     position: relative; }
     .bc-work .muse_container .muse_photos img {
       position: relative;
-      padding: 0 10px;
+      padding: 5px 10px;
       width: 100%;
-      max-width: 325px;
       height: auto;
       margin: 0 auto; }
     .bc-work .muse_container .muse_photos .georgia, .bc-work .muse_container .muse_photos .nick, .bc-work .muse_container .muse_photos .rob {
@@ -513,7 +533,130 @@ footer {
     width: 49%; }
   .perk_container p {
     width: 95%;
-    margin: 0px 10px; } }
+    margin: 0px 10px; }
+  .exec_people .column-quarter {
+    float: left;
+    position: relative;
+    width: 23% !important;
+    margin-top: .5%;
+    margin-right: .5%;
+    margin-bottom: 2.5%;
+    margin-left: .5%; }
+  .our_sites_container .half_column {
+    width: 50%; }
+    .our_sites_container .half_column img {
+      width: 50%;
+      padding: 10px 10px 10px 0px; }
+    .our_sites_container .half_column .site_detail {
+      display: block !important;
+      font-size: 15px; }
+    .our_sites_container .half_column .site_detail_link {
+      display: inline-block !important;
+      font-size: 15px; }
+    .our_sites_container .half_column .site_links {
+      display: inline-block; }
+      .our_sites_container .half_column .site_links a {
+        font-size: 15px; }
+        .our_sites_container .half_column .site_links a .site_detail_link {
+          display: inline-block !important; }
+  .best_photos_large {
+    display: inline-block !important;
+    font-size: 0px; }
+    .best_photos_large .large_photo {
+      position: relative; }
+    .best_photos_large .photo_caption {
+      width: 100%;
+      background-color: rgba(34, 34, 34, 0.7);
+      color: white;
+      font-size: 12px;
+      padding: 7px;
+      position: absolute;
+      bottom: 0; }
+    .best_photos_large img {
+      width: 100%;
+      height: 100%; }
+  .best_town_paragraphs {
+    display: inline-block !important; }
+    .best_town_paragraphs .best_third_column {
+      display: inline-block;
+      width: 31%;
+      margin: 0 3.5px;
+      vertical-align: top; }
+      .best_town_paragraphs .best_third_column h3 {
+        font-size: 18px; }
+      .best_town_paragraphs .best_third_column p {
+        font-size: 15px; }
+  .also_in_small {
+    display: none; }
+  .also_in_large {
+    display: block !important; }
+  .where_distribution_photos {
+    width: 100%; }
+    .where_distribution_photos .where_half_column {
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 5px;
+      width: 47%; }
+      .where_distribution_photos .where_half_column p {
+        margin-top: 10px;
+        font-size: 15px; }
+      .where_distribution_photos .where_half_column h2 {
+        font-size: 22px; }
+      .where_distribution_photos .where_half_column .slc_photo, .where_distribution_photos .where_half_column .christiansburg_photo {
+        display: block; }
+        .where_distribution_photos .where_half_column .slc_photo img, .where_distribution_photos .where_half_column .christiansburg_photo img {
+          width: 100%; }
+  .where_small_pictures {
+    width: 100%; }
+    .where_small_pictures .where_column_third {
+      width: 32%;
+      display: inline-block;
+      vertical-align: top; }
+      .where_small_pictures .where_column_third .portland_photo, .where_small_pictures .where_column_third .costa_rica_photo, .where_small_pictures .where_column_third .germany_photo {
+        margin-right: 5px;
+        display: block;
+        margin-bottom: 10px; }
+        .where_small_pictures .where_column_third .portland_photo img, .where_small_pictures .where_column_third .costa_rica_photo img, .where_small_pictures .where_column_third .germany_photo img {
+          width: 100%; }
+      .where_small_pictures .where_column_third p {
+        margin-top: 10px;
+        font-size: 15px; }
+      .where_small_pictures .where_column_third h2 {
+        font-size: 24px; } }
+
+@media only screen and (min-width: 690px) {
+  .muse_container {
+    background-color: white; }
+  .powered_by {
+    float: right; }
+  .muse_row1 {
+    padding: 0px;
+    width: 100%;
+    display: inline-block;
+    background-color: white;
+    position: relative; }
+    .muse_row1 .muse_row1_left {
+      float: left;
+      width: 66%;
+      height: 100%; }
+      .muse_row1 .muse_row1_left img {
+        padding: 5px 10px;
+        width: 100%;
+        height: 100%; }
+    .muse_row1 .muse_row1_right {
+      float: left;
+      width: 33%;
+      height: 100%; }
+      .muse_row1 .muse_row1_right .work_play, .muse_row1 .muse_row1_right .wall_climb {
+        height: 50%; }
+  .muse_row2 {
+    width: 100%;
+    display: inline-block; }
+    .muse_row2 .nick, .muse_row2 .georgia, .muse_row2 .rob {
+      display: inline-block;
+      width: 32%; }
+      .muse_row2 .nick img, .muse_row2 .georgia img, .muse_row2 .rob img {
+        width: 32.5%; } }
 
 .shop-desktop {
   display: none; }
